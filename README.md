@@ -73,7 +73,7 @@ Participants were asked to **build a Jenga tower** within a **20-40 second time 
 
 ## Analysis
 
-The analysis is conducted in the Jupyter notebook: `src/poilet_study.ipynb`
+The analysis is conducted in the Jupyter notebook: `notebooks/poilet_study.ipynb`
 
 ### Analysis Components
 
@@ -103,8 +103,8 @@ The analysis is conducted in the Jupyter notebook: `src/poilet_study.ipynb`
 
 ### Output Files
 
-- `regression_plots.png`: Visualization of treatment effects from regression models
-- `regression_covariates_plots.png`: Covariate analysis and balance checks
+- `outputs/regression_plots.png`: Visualization of treatment effects from regression models
+- `outputs/regression_covariates_plots.png`: Covariate analysis and balance checks
 
 ---
 
@@ -136,7 +136,7 @@ pip install pandas numpy matplotlib seaborn statsmodels stargazer
 
 2. Open and run the Jupyter notebook:
    ```bash
-   jupyter notebook src/poilet_study.ipynb
+   jupyter notebook notebooks/poilet_study.ipynb
    ```
 
 3. Execute cells sequentially to reproduce the analysis
@@ -147,15 +147,16 @@ pip install pandas numpy matplotlib seaborn statsmodels stargazer
 
 ```
 830-project/
-├── README.md                          # This file
-├── .gitignore                         # Git ignore configuration
+├── README.md                              # This file
+├── .gitignore                             # Git ignore configuration
 ├── Data/
-│   └── combined.csv                   # Main dataset
-├── src/
-│   ├── poilet_study.ipynb            # Main analysis notebook
-│   ├── regression_plots.png           # Treatment effect visualizations
-│   └── regression_covariates_plots.png # Covariate balance checks
-└── .git/                              # Version control
+│   └── combined.csv                       # Main dataset
+├── notebooks/
+│   └── poilet_study.ipynb                # Main analysis notebook
+├── outputs/
+│   ├── regression_plots.png               # Treatment effect visualizations
+│   └── regression_covariates_plots.png    # Covariate balance checks
+└── .git/                                  # Version control
 ```
 
 ---
