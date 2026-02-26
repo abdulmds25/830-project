@@ -30,8 +30,28 @@ We hypothesize that bonus compensation incentivizes faster task completion compa
 
 ### Randomization
 
-- Simple randomization was used to assign participants to groups
-- Once a group reached 30 participants, randomization switched to binary (between remaining groups)
+#### Randomization Procedure
+- **Initial method**: Simple randomization used to assign participants to three groups (Control, Treatment 1, Treatment 2)
+- **Cap-based switching**: Once a group reached 30 participants, randomization switched to binary (between remaining groups)
+- **Goal**: Ensure all groups reach n=30 for balanced design
+
+#### Randomization Validity Checks
+The analysis includes **balance tests** to verify randomization worked correctly:
+
+- **Test method**: ANOVA and independent t-tests
+- **Variables tested**:
+  - Age range
+  - Gender
+  - Self-assessed Jenga building skills
+  - Time pressure ("In a hurry" status)
+  
+- **Interpretation**:
+  - **p-value > 0.05** = ✓ Covariate is balanced across groups (good randomization)
+  - **p-value < 0.05** = ✗ Covariate is imbalanced (included as control variable in regression)
+
+**Result**: Balance tests confirm randomization effectiveness by ensuring groups are similar on baseline characteristics, supporting causal inference from treatment effects.
+
+See `DATA_DICTIONARY.md` for detailed documentation of the randomization process and balance test results.
 
 ### Task
 
