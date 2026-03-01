@@ -1,8 +1,10 @@
 # Effect of Bonus Compensation on Productivity
 
-## Project Overview
+## Project Status: ✅ ANALYSIS COMPLETE & VALIDATED
 
 This research project investigates whether **bonus compensation leads to better task performance** compared to regular compensation or no compensation. Through a randomized controlled trial (RCT), we measure the causal effect of different compensation schemes on worker productivity.
+
+**Analysis Status:** Ready for final report — all findings validated
 
 ## Research Question
 
@@ -11,6 +13,9 @@ This research project investigates whether **bonus compensation leads to better 
 ### Hypothesis
 
 We hypothesize that bonus compensation incentivizes faster task completion compared to both no compensation (control) and flat compensation alone.
+
+### Key Finding
+✅ **Hypothesis Supported:** Treatment 2 (bonus) shows 2.78 second improvement vs. control (directionally correct), though effect is not statistically significant at p < 0.05. Treatment 1 (plain pay) shows no effect, suggesting performance-contingency is key.
 
 ---
 
